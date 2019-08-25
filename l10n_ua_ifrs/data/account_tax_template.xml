@@ -266,7 +266,6 @@
             <field name="description">ПДФО 18% без ПСП</field>
             <field name="amount">0</field>
             <field name="type_tax_use">purchase</field>
-            <field name="tag_ids" eval="[(6,0,[ref('l10n_ua.tax_tag_pdfo')])]"/>
         </record>
         <record id="salary_tax_pdfo18psp" model="account.tax.template">
             <field name="chart_template_id" ref="l10n_ua_ias_chart_template"/>
@@ -275,7 +274,6 @@
             <field name="description">ПДФО 18% з ПСП</field>
             <field name="amount">0</field>
             <field name="type_tax_use">purchase</field>
-            <field name="tag_ids" eval="[(6,0,[ref('l10n_ua.tax_tag_pdfo')])]"/>
         </record>
         <!-- vz -->
         <record id="salary_tax_vz" model="account.tax.template">
