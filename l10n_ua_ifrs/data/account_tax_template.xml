@@ -249,7 +249,6 @@
             <field name="description">ЄСВ 22%</field>
             <field name="amount">0</field>
             <field name="type_tax_use">purchase</field>
-            <field name="tag_ids" eval="[(6,0,[ref('l10n_ua.tax_tag_esv')])]"/>
         </record>
         <record id="salary_tax_esv_inval" model="account.tax.template">
             <field name="chart_template_id" ref="l10n_ua_ias_chart_template"/>
@@ -258,7 +257,6 @@
             <field name="description">ЄСВ для інвалідів</field>
             <field name="amount">0</field>
             <field name="type_tax_use">purchase</field>
-            <field name="tag_ids" eval="[(6,0,[ref('l10n_ua.tax_tag_esv')])]"/>
         </record>
         <!-- pdfo -->
         <record id="salary_tax_pdfo18" model="account.tax.template">
