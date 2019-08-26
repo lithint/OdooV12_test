@@ -283,7 +283,6 @@
             <field name="description">Військовий збір 1,5%</field>
             <field name="amount">0</field>
             <field name="type_tax_use">purchase</field>
-            <field name="tag_ids" eval="[(6,0,[ref('l10n_ua.tax_tag_vz')])]"/>
         </record>
     </data>
 </odoo>
